@@ -16,15 +16,15 @@ public class PremiumMember extends Member{
 		super.printMemberInfo();
 		
 		// For family override
-		/*
-		System.out.println("---------------------");
+		if(family.size()>0) {
+			System.out.println("---------------------");
 		System.out.println("List of Family");
 		for(int i=0;i<family.size();i++) {
 			System.out.printf("%s, ",family.get(i));
 		}
 		System.out.println();
+		}
 		
-		*/
 	}
 	
 	public boolean addFamily(String username) {
