@@ -36,6 +36,7 @@ public class Member {
 		for(int i=0;i<vdoList.size();i++) {
 			System.out.println("["+(i+1)+"]"+vdoList.get(i));
 		}
+		System.out.println("---------------------");
 	}
 	
 }
