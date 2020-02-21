@@ -10,7 +10,7 @@ public class Member {
 	}
 	
 	public boolean addVideo(Video vdo) {
-		if(vdo != null) {
+		if(vdo.getTitle().length()!=0) {
 			vdoList.add(vdo);
 			return true;
 		} else {
